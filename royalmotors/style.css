@@ -1,0 +1,172 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+body{
+    position: relative;
+    min-height: 100vh;
+    padding-bottom: 200px;
+}
+
+/* ----- header section ----- */
+
+input{
+    height: 30px;
+    width: 350px;
+    background-color: #03071e;
+    color: white;
+    padding-left: 20px;
+    border-radius: 25px;
+}
+::placeholder{
+    color: white;
+    opacity: 1;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+}
+nav{
+    flex: 1;
+    text-align: right;
+    font-size: large;
+}
+nav ul{
+    display: inline-block;
+    list-style-type: none;
+}
+nav ul li{
+    display: inline-block;
+    margin-right: 20px;
+}
+a{
+    text-decoration: none;
+    color: #03071e;
+}
+p{
+    color: #03071e;
+}
+.container{
+    max-width: 1300px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.grid{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.column-2{
+    flex-basis: 50%;
+    min-width: 300px;
+    padding: 15px;
+}
+.column-2 img{
+    max-width: 100%;
+}
+.column-2 h4{
+    font-size: large;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+/* ----- slideshow section ----- */
+
+.slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+  }
+  
+  /* Next & previous buttons */
+  .left-slide, .right-slide {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+  
+  /* Position the "next button" to the right */
+
+  .right-slide {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+
+  /* On hover, add a black background color with a little bit see-through */
+.left-slide:hover, .right-slide:hover {
+    background-color: rgba(0,0,0,0.8);
+  }
+
+/* ----- products grid section ----- */
+.small-container{
+    max-width: 1280px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.product{
+    flex-basis: 25%;
+    padding: 10px;
+    min-width: 200px;
+    margin-bottom: 50px;
+}
+
+.product img{
+    width: 100%;
+}
+
+
+/* ----- footer section ----- */
+footer {
+    position:absolute;
+    bottom:0;
+    width:100%;
+    background: #03071e;
+    color: white;
+ }
+
+/*.footer{
+    background-color:#03071e;
+    color: white;
+}*/
+.footer-column ul{
+    list-style-type: none;
+}
+
+.footer-column ul li a{
+    color: white;
+}
+.footer-column{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+.footer-column ul li{
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+
+.footer-column h3{
+    padding-bottom: 5px;
+}

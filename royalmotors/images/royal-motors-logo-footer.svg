@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1080" viewBox="0 0 1920 1080">
+  <defs>
+    <style>
+      .cls-1 {
+        font-size: 358.667px;
+        fill: #d00000;
+        text-anchor: middle;
+        font-family: Montserrat;
+      }
+
+      .cls-2 {
+        font-weight: 500;
+      }
+
+      .cls-3 {
+        fill: #fff;
+        font-family: "Vladimir Script";
+      }
+    </style>
+  </defs>
+  <text id="Royal_Motors_Auction_House" data-name="Royal Motors Auction House" class="cls-1" transform="translate(950.302 506.353) scale(0.75)"><tspan class="cls-2" x="0">Royal Motors</tspan><tspan class="cls-3" x="0" dy="430.4">Auction House</tspan></text>
+</svg>
